@@ -17,6 +17,7 @@ This container includes support for Namecoin configuration values. These values 
 The following values are configurable:
 * `RPC_USER`
 * `RPC_PASS`
+* `RPC_ALLOW_IP`
 * `MAX_CONNECTIONS`
 * `RPC_PORT`
 * `PORT`
