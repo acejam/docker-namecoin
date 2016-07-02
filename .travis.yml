@@ -5,3 +5,7 @@ services:
 
 script:
   - docker build -t acejam/namecoin .
+
+branches:
+  only:
+    - master
