@@ -22,4 +22,4 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 8336 8334
 VOLUME ["/data/namecoin"]
-CMD ["/usr/bin/namecoind", "-datadir=/data/namecoin", "-printtoconsole"]
+CMD ["/usr/bin/namecoind", "-datadir=/data/namecoin"]
